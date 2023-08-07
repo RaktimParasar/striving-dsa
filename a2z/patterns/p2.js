@@ -10,9 +10,9 @@ let n = 5;
 let string = "";
 
 // external loop for rows
-for (i = 0; i < n; i++) {
+for (let i = 0; i < n; i++) {
   // internal loop for columns
-  for (j = 0; j <= i; j++) {
+  for (let j = 0; j <= i; j++) {
     string += "* ";
   }
   // newline after each row
