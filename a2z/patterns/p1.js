@@ -1,3 +1,11 @@
+// Pattern 1
+
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+
 let n = 5;
 let string = "";
 
@@ -5,7 +13,7 @@ let string = "";
 for (let i = 0; i < n; i++) {
   // internal loop for columns
   for (let j = 0; j < n; j++) {
-    string += "*";
+    string += "* ";
   }
   // newline after each row
   string += "\n";
